@@ -1,0 +1,48 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+
+h1 {
+    color: darkblue;
+}
+
+
+.header-text {
+    color: darkgreen;
+}
+
+
+#highlight {
+    color: orange;
+}
+
+
+h2, p {
+    color: #555;
+}
+
+
+article section h2 {
+    color: darkred;
+}
+
+
+a[href*="https"] {
+    color: teal;
+}
+
+
+@font-face {
+    font-family: 'CustomFont';
+    src: url('fonts/CustomFont.woff2') format('woff2'),
+         url('fonts/CustomFont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h2 {
+    font-family: 'CustomFont', sans-serif;
+}
