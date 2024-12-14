@@ -1,0 +1,32 @@
+.container {
+  text-align: center;
+}
+
+.title {
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 700;
+  color: blue;
+  padding-bottom: 10px;
+}
+.subtitle {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 600;
+  color: yellowgreen;
+  text-transform: lowercase;
+  padding-bottom: 30px;
+}
+.vest {
+  text-decoration: underline;
+  text-shadow: 1px 2px;
+  color: rgb(30, 123, 151);
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  font-size: 20px;
+}
+.image{
+    text-align: center;
+    padding-bottom: 50px;
+    padding-left: 15px;
+}
